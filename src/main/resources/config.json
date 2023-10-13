@@ -1,0 +1,6 @@
+{"rateLimitsPerEndpoint": [
+  { "endpoint": "GET /user/:id", "burst": 100, "sustained": 50 },
+  { "endpoint": "PATCH /user/:id", "burst": 10, "sustained": 5 },
+  { "endpoint": "POST /userinfo", "burst": 300, "sustained": 100 }
+]
+}
